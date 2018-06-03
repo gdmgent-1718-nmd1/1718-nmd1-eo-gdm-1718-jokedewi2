@@ -49,8 +49,8 @@ nav .grootvak {     /* Dit is om landen en tickets groter te maken */
     width: 150px;
 }
 
-nav a:link, a:visited, a:hover, a:active {
-    color: white;
+nav :link, a:visited, a:hover, a:active {
+    color: black;
     }
 nav a:hover { background-color: rgb(76 , 143, 163); }
 
@@ -94,3 +94,4 @@ input {
     border-left:none;
     border-right:none;
 }
+
