@@ -16,3 +16,81 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+
+/* NAVIGATIE */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}   
+
+nav li { 
+    float: left;
+    margin-bottom: 50px;
+
+}
+
+nav a {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(101, 191, 221);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+nav .grootvak {     /* Dit is om landen en tickets groter te maken */
+    width: 150px;
+}
+
+nav a:link, a:visited, a:hover, a:active {
+    color: white;
+    }
+nav a:hover { background-color: rgb(76 , 143, 163); }
+
+
+
+
+/* TYPOGRAFIE */
+h2 {
+clear: left;
+}
+
+.Typografie .Titelgevuld {
+    font-size: 4em;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: rgb(167 , 109, 131);
+} 
+.Typografie .Titelomlijning {
+    font-size: 4em;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: rgb(231, 175, 2);
+    position: relative;
+    top: -85px;
+    left:-3px;
+} 
+
+.Typografie .ondertitel {
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.Typografie .Tekst {
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+input {
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
